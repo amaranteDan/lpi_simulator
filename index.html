@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linux Certification Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Linux Certification Exam Simulator</h1>
+  </header>
+  <main>
+    <!-- Tela inicial -->
+    <div id="start-container">
+      <button id="start-btn" class="btn btn-primary">Start</button>
+    </div>
+
+    <!-- Container do Quiz -->
+    <div id="quiz-container" style="display: none;">
+      <div id="timer-container">
+        <div id="timer">Time Remaining: 60:00</div>
+        <button id="pause-btn">Pause</button>
+      </div>
+      <div id="question-container"></div>
+    </div>
+
+    <!-- Botões -->
+    <button id="submit-btn" style="display: none;">Submit</button>
+    <button id="reset-btn" style="display: none;">Reset</button>
+     
+    <!-- Resultado -->
+    <div id="result"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
